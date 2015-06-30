@@ -1,0 +1,19 @@
+#name, main, version and api are required
+name: DarkRealmsCore
+main: DarkRealmsCore\MainClass
+version: 1.0.0
+api: [1.0.0]
+
+load: POSTWORLD
+author: HyperFuse
+description: Donation Plugin
+website: https://darkrealms.cf/
+commands:
+ example:
+  description: Shows Donation Ranks
+  usage: "Usage: /donate"
+  permission: darkrealmscore.command.donate
+permissions:
+ darkrealmscore.command.donate:
+  description: "Allows the user to run the example command"
+  default: true
